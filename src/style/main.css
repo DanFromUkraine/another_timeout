@@ -1,0 +1,51 @@
+* {
+  list-style: none;
+}
+.gallary_item {
+  border: 1px solid grey;
+}
+body {
+  background-color: rgb(116, 178, 253);
+}
+.alert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  background-color: aliceblue;
+  color: rgb(63, 63, 63);
+  border: 1px solid rgb(63, 63, 63);
+  border-radius: 3px;
+  padding: 24px;
+  cursor: pointer;
+  transform: translateX(calc(100% + 20px));
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.alert, .success {
+  border: 1px solid green;
+  background-color: rgb(95, 167, 95);
+
+}
+ .is-visible {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #000;
+  border-radius: 2px;
+  transform: translateX(0);
+  opacity: 1;
+}
+.not-visible {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.buttons-block {
+  display: flex;
+}
+.subs {
+  color: red;
+
+}
